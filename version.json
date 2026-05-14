@@ -1,29 +1,17 @@
-{
-  "version": "SONOTAS-7.0.0.229",
-  "notes": "Correção de NF-e e atualização de schemas NFSe",
+﻿{
+  "version": "SONOTAS-7.0.0.233",
+  "notes": "Correções e melhorias",
   "files": [
     {
-      "url": "https://github.com/rti-sistemas/sonotas-exe/releases/download/SoNotasNFe_7.0.0.233/SoNotasNFe.exe",
+      "url": "https://github.com/rti-sistemas/sonotas-exe/releases/download/SONOTAS-7.0.0.233/SoNotasNFe.exe",
       "dest": "SoNotasNFe.exe",
       "type": "exe_main",
       "required": true
     },
     {
-      "url": "https://github.com/rti-sistemas/sonotas-exe/releases/download/SoNotasNFe_7.0.0.233/Updater.exe",
+      "url": "https://github.com/rti-sistemas/sonotas-exe/releases/download/SONOTAS-7.0.0.233/Updater.exe",
       "dest": "Updater.exe",
       "type": "updater",
-      "required": false
-    },
-    {
-      "url": "https://github.com/rti-sistemas/sonotas-exe/releases/download/SoNotasNFe_7.0.0.233/ssleay32.dll",
-      "dest": "ssleay32.dll",
-      "type": "dll",
-      "required": false
-    },
-    {
-      "url": "https://github.com/rti-sistemas/sonotas-exe/releases/download/SoNotasNFe_7.0.0.233/libeay32.dll",
-      "dest": "libeay32.dll",
-      "type": "dll",
       "required": false
     }
   ]
